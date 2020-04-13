@@ -21,6 +21,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+img:hover {
+  cursor: pointer;
+  opacity: 0.3;
+}
 .container {
   width: 1110px;
   margin: 0 auto;
@@ -29,6 +33,9 @@ img {
   display: table;
   content: "";
   clear: both;
+}
+h1 {
+  display: inline-block;
 }
 .site-logo {
   display: inline-block;
@@ -84,14 +91,15 @@ img {
 .head1 {
   margin-bottom: 91px;
 }
-.main-h1 {
+.main-h2 {
   font-family: "Roboto", sans-serif;
   font-size: 48px;
   line-height: 32px;
   text-transform: uppercase;
   text-align: center;
+  font-weight: 900;
 }
-.main-h1::after {
+.main-h2::after {
   display: block;
   content: "";
   width: 164px;
@@ -110,6 +118,9 @@ img {
 }
 .team {
   list-style: none;
+}
+.team-list:nth-last-child(-n + 4) {
+  margin-bottom: 0;
 }
 .team-list:nth-of-type(4n) {
   margin-right: 0;
@@ -138,7 +149,7 @@ img {
   background: linear-gradient(to right, #1abc9c 80%, #7fd9c7 20%);
 }
 .wrapper {
-  margin-bottom: 89px;
+  margin-bottom: 91px;
 }
 .foot-items {
   list-style: none;
@@ -177,5 +188,6 @@ img {
   margin-bottom: 6px;
 }
 .foot {
+  margin-top: 89px;
   margin-bottom: 81px;
 }
