@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #555252;
+  font-size: 14px;
+  line-height: 26px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.site-logo {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  color: #515151;
+}
+.site-logo:hover {
+  font-size: 30px;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  color: #515151;
+}
+.site-logo::first-letter {
+  font-weight: 900;
+  color: #1abc9c;
+}
+.mynav {
+  padding-top: 38px;
+}
+.nav {
+  float: right;
+  list-style: none;
+  width: 505px;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #1abc9c;
+}
+.site-nav {
+  float: left;
+  margin-right: 30px;
+}
+.site-nav:nth-of-type(4n + 1) {
+  margin-right: 38px;
+}
+.site-nav:nth-of-type(2) {
+  margin-right: 38px;
+}
+.site-nav:last-child {
+  margin-right: 0px;
+}
+.site-nav a {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #0f0101;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.head1 {
+  margin-bottom: 91px;
+}
+.main-h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  line-height: 32px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.main-h1::after {
+  display: block;
+  content: "";
+  width: 164px;
+  height: 7px;
+  background-color: #1abc9c;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 92px;
+}
+
+.team-list {
+  width: 255px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.team {
+  list-style: none;
+}
+.team-list:nth-of-type(4n) {
+  margin-right: 0;
+}
+.team-list::after {
+}
+.team-list a {
+  width: 255px;
+  height: 40px;
+  background: linear-gradient(to right, #323232 80%, #8c8c8c 20%);
+  display: block;
+  font-size: 18px;
+  color: #ffffff;
+  padding-top: 8px;
+  padding-left: 12px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.team-list a span {
+  float: right;
+  padding-right: 10px;
+}
+.team-list a:hover {
+  background: linear-gradient(to right, #1abc9c 80%, #7fd9c7 20%);
+}
+.wrapper {
+  margin-bottom: 89px;
+}
+.foot-items {
+  list-style: none;
+}
+.foot-items-list {
+  width: 350px;
+  float: left;
+  margin-right: 30px;
+}
+.foot-items-list:last-child {
+  margin-right: 0;
+}
+.h3::after {
+  display: block;
+  content: "";
+  width: 136px;
+  height: 2px;
+  background-color: #1abc9c;
+  margin-top: 7px;
+  margin-bottom: 16px;
+}
+.readmore {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  padding: 12px 42px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #4ec6ab;
+  border-radius: 5px;
+  border: solid #4ec6ab;
+  cursor: pointer;
+}
+.foot-items-list p {
+  margin-bottom: 6px;
+}
+.foot {
+  margin-bottom: 81px;
+}
