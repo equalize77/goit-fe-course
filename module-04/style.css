@@ -36,6 +36,7 @@ img:hover {
 }
 h1 {
   display: inline-block;
+  padding-top: 38px;
 }
 .site-logo {
   display: inline-block;
@@ -57,6 +58,8 @@ h1 {
 }
 .mynav {
   padding-top: 38px;
+  width: 540px;
+  float: right;
 }
 .nav {
   float: right;
