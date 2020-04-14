@@ -92,12 +92,14 @@ h1 {
   margin-bottom: 91px;
 }
 .main-h2 {
+  display: block;
   font-family: "Roboto", sans-serif;
   font-size: 48px;
   line-height: 40px;
   text-transform: uppercase;
   text-align: center;
   font-weight: 900;
+  margin-top: 90px;
 }
 .main-h2::after {
   display: block;
@@ -148,7 +150,7 @@ h1 {
 .team-list a:hover {
   background: linear-gradient(to right, #1abc9c 80%, #7fd9c7 20%);
 }
-.wrapper {
+.main {
   margin-bottom: 91px;
 }
 .foot-items {
