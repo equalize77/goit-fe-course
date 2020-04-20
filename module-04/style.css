@@ -36,6 +36,8 @@ img:hover {
 }
 h1 {
   display: inline-block;
+}
+.link {
   padding-top: 38px;
 }
 .site-logo {
@@ -92,7 +94,11 @@ h1 {
   text-decoration: none;
 }
 .head1 {
-  margin-bottom: 91px;
+  display: inline-block;
+  margin-bottom: 90px;
+}
+.features {
+  margin-bottom: 97px;
 }
 .main-h2 {
   display: block;
@@ -102,7 +108,7 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   font-weight: 900;
-  margin-top: 90px;
+  margin-bottom: 92px;
 }
 .main-h2::after {
   display: block;
@@ -112,7 +118,6 @@ h1 {
   background-color: #1abc9c;
   margin: 0 auto;
   margin-top: 32px;
-  margin-bottom: 92px;
 }
 
 .team-list {
@@ -130,11 +135,9 @@ h1 {
 .team-list:nth-of-type(4n) {
   margin-right: 0;
 }
-.team-list::after {
-}
 .team-list a {
   width: 255px;
-  height: 40px;
+  height: 39px;
   background: linear-gradient(to right, #323232 80%, #8c8c8c 20%);
   display: block;
   font-size: 18px;
@@ -154,7 +157,7 @@ h1 {
   background: linear-gradient(to right, #1abc9c 80%, #7fd9c7 20%);
 }
 .main {
-  margin-bottom: 91px;
+  margin-bottom: 90px;
 }
 .foot-items {
   list-style: none;
@@ -191,8 +194,4 @@ h1 {
 }
 .foot-items-list p {
   margin-bottom: 6px;
-}
-.foot {
-  margin-top: 89px;
-  margin-bottom: 81px;
 }
