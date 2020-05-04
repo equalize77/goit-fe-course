@@ -184,7 +184,12 @@
     text-transform: uppercase;
     font-weight: 900;
 }
-
+.card{
+  height: 321px;
+}
+.features{
+  margin-bottom: 100px;
+}
 .card1 .price{
     text-decoration: none;
     font-family: "Roboto", sans-serif;
@@ -210,7 +215,6 @@
 }
 .card1{
   list-style: none;
-  margin-bottom: 0;
 }
 .img{
   display: block;
@@ -222,14 +226,17 @@
 }
 .list-item {
   list-style-type: none;
-  font-size: 0px;
-  width: 254px;
+  width: 255px;
   height: 282px;
-  background-color: rgba(115, 115, 115, 0.5);
-  border: 10px solid rgb(255 , 255 , 255);
+  background-color: rgba(73,73,73, 0.7);
+  border: 10px solid rgb(255, 255, 255);
   position: absolute;
   top: 0px;
   display: none;
+}
+.border{
+  border: 10px solid rgb(255, 255, 255);
+  opacity: 0.6;
 }
 .like a {
   display: block;
@@ -283,6 +290,7 @@
   border: 1px solid #ffffff;
   color: #ffffff;
   text-decoration: none;
+  background-color: rgb(50,50,50);
   text-transform: uppercase;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
@@ -295,9 +303,6 @@
   position: absolute;
   top: 140px;
   right: 37px;
-}
-.basket a:hover {
-  background-color: #323232;
 }
 .foot{
   height: 88px;
