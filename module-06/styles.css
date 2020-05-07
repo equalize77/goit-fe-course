@@ -37,7 +37,7 @@
     list-style-type: none;
     padding-left: 30px;
     padding-right: 30px;
-}
+    }
 .menu_list_item:last-child {
     padding-right: 0;
 }
@@ -109,10 +109,11 @@
     margin-bottom: 0;
 }
 .service_list_item_icon {
-    margin-top: 10px;
-    margin-right: 32px;
-    width: 32px;
-    height: 32px;
+    /* margin-top: 10px; 
+    margin-right: 32px;  */
+    /* display: flex; */
+    width: 60px;
+    height: 50px;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -139,12 +140,15 @@
     font-size: 14px;
     text-transform: uppercase;
     color: #333333;
-    margin-bottom: 11px;
+    /* margin-bottom: 11px; */
+     /* text-align: center;  */
 }
 .service_list_item_p {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: #999999;
+    /* display: flex; */
+    
 }
 .service_list {
     display: flex;
