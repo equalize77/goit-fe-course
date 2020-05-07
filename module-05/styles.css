@@ -200,6 +200,9 @@
     left: 214px;
     bottom: 33px;
 }
+.card1 .name:hover{
+  background: linear-gradient(to right, #1abc9c 80%, #7fd9c7 20%);
+}
 .card1{
   float: left;
   position: relative;
