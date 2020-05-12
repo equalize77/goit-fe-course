@@ -1,0 +1,25 @@
+
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat-reg';
+        src: url('fonts/montserrat-v14-latin-regular.woff2') format('woff2');
+        src: url('fonts/montserrat-v14-latin-regular.woff') format('woff');
+  }
+  /* roboto-slab-regular - latin */
+@font-face {
+    font-family: 'Roboto Slab';
+        src: url('fonts/roboto-slab-v11-latin-regular.woff2') format('woff2');
+        src: url('fonts/roboto-slab-v11-latin-regular.woff') format('woff');
+  }
+  /* montserrat-800 - latin */
+@font-face {
+    font-family: 'Montserrat';
+        src: url('fonts/montserrat-v14-latin-800.woff2') format('woff2');
+        src: url('fonts/montserrat-v14-latin-800.woff') format('woff');
+  }
+  /* ibm-plex-serif-italic - latin */
+@font-face {
+    font-family: 'IBM Plex Serif';
+        src: url('fonts/ibm-plex-serif-v8-latin-italic.woff2') format('woff2');
+        src: url('fonts/ibm-plex-serif-v8-latin-italic.woff') format('woff');
+  }
