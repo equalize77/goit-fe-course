@@ -7,6 +7,9 @@
     width: 1400px;
     margin: 0 auto;
 }
+.wrapper2{
+    width: 100%;
+}
 .menu {
     display: flex;
     justify-content: space-between;
