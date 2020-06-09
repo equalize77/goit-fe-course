@@ -38,7 +38,8 @@
     padding-top: 8px;
     min-width: 90px;
     min-height: 36px;
-    
+    border: 2px solid;
+    border-color: transparent;
 }
 .menu-item a:hover {
     border: 2px solid rgb(255, 255, 255);
