@@ -9,7 +9,7 @@
 }
 @media (min-width: 320px) {
 .header {
-    background-image: url(/img/background2.jpg);
+    background-image: url(/img2/background2.jpg);
     background-size: cover;
     background-position: center;
     padding: 38px 40px;
@@ -74,6 +74,11 @@
     text-transform: uppercase;
     
 }
+.logo:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
 .logo-box {
     margin-bottom: 36px;
     min-width: 175px;
